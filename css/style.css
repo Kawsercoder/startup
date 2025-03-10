@@ -2,7 +2,7 @@
     
     width: 100px;
     height: 100px;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .navbar-brand img{
@@ -17,7 +17,7 @@
 
 }
 
-.container{
+.illustration .container{
     background-image: url(../images/Background.png);
 
 }
@@ -68,4 +68,266 @@
     top: 4px;
     left: 83px;
     
+}
+
+
+
+.howwework .container {
+    background: none!important;
+
+}
+
+/* .work .viewpricing{
+    position: relative;
+} */
+
+.work .viewourwork h3,p{
+    color: black;
+}
+
+.work .viewpricing a{
+    color: blue;
+    position: relative;
+
+}
+
+.work .viewpricing i{
+    width: 100%;
+    height: auto;
+    color: blue;
+    position: absolute;
+    top: 4px;
+    right: -83px;
+    transition: .4s ease;
+    
+}
+
+.work .viewpricing i:hover{
+    
+    top: 4px;
+    right: -113px;
+    
+}
+
+
+
+
+
+.howwework .row{
+    display: flex;
+}
+
+
+.strategywrap .wrapbox{
+    width: 328px;
+    height: 150px;
+}
+
+.howwework{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects .viewflex{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+.box1 .project1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    
+    
+
+}
+
+
+.box1 .project1 .overlay1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(28,30,83,0.2861519607843137) 0%, rgba(38,39,72,1) 8%, rgba(47,47,62,0.30015756302521013) 15%, rgba(28,30,83,0.28335084033613445) 35%, rgba(49,50,61,0.39539565826330536) 53%, rgba(45,45,52,1) 100%);    left: -50%;
+    top: 0;
+    transition: .4s ease;
+    
+
+    
+
+    
+}
+.box1 .project1:hover .overlay1{
+    left: 0;
+    
+
+    
+}
+
+
+
+
+.box2 .project2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+
+}
+
+.box2 .project2 .overlay2{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(90deg, rgba(28,30,83,0.2861519607843137) 0%, rgba(38,39,72,1) 8%, rgba(47,47,62,0.30015756302521013) 15%, rgba(28,30,83,0.28335084033613445) 35%, rgba(49,50,61,0.39539565826330536) 53%, rgba(45,45,52,1) 100%);
+    top: -100%;
+    transition: .4s ease;
+    
+}
+
+.box2 .project2:hover .overlay2{
+    top:0;
+    
+    
+}
+
+.project1 .office1 {
+    width: 312px;
+    padding-left: 30px;
+    padding-top: 312px;
+    color: white;
+}
+.project2 .office2 {
+    width: 312px;
+    padding-left: 30px;
+    padding-top: 190px;
+    color: white;
+}
+
+
+.office2 a{
+    color: white;
+}
+
+
+.textfeature{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.card img{
+    width: 10%;
+    flex-basis: 10%;
+    padding-left: 15px;
+}
+
+
+.card-group{
+    column-gap: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.card{
+    border: none;
+}
+
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.profile2{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.profile2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.faq{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "x";
+    background-image: none;
+}
+
+.accordion-button.collapsed::after {
+    content: "+";
+    background-image: none;
+}
+
+.bgimage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bgimage img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlayone{
+    position: absolute;
+    bottom:25%;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+.overlaytwo{
+    position: absolute;
+    bottom:25%;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+
+.overlayone h3{
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    
+}
+.overlayone p{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+}
+.overlaytwo h3{
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.overlaytwo p{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+     width: 400px;
+}
+
+
+
+
+
+input {
+    width: 100%;
 }
